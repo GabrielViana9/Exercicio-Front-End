@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+    --color-background-nav: #322a83;
+    --color-h1-nav: #ffbb3c;
+    --color-background-site: #4c3ed1;
+    --color-light-gray: #e5e5e5;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background-site);
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-background-nav);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+nav h1 {
+    color: var(--color-h1-nav);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form label {
+    color: var(--color-h1-nav);
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.styles-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-form {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-styles {
+    border: 1px solid var(--color-background-nav);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 360px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: var(--color-background-nav);
+    background-color: var(--color-light-gray);
+    border: 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.container-box-radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-radio {
+    display: flex;
+    color: var(--color-h1-nav);
+}
+
+.control-radio p {
+    padding-left: 10px;
+}
+
+.control-radio input {
+    margin-left: 10px;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: var(--color-background-nav);
+    background-color: var(--color-light-gray);
+    border: 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.styles-btns {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    margin-right: 10px;
+}
+
+.styles-btns input {
+    background-color: var(--color-background-site);
+    color: var(--color-light-gray);
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid var(--color-h1-nav);
+}
